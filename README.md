@@ -49,9 +49,9 @@ pip install -r requirements.txt
 `app.py` currently loads model weights from **hardcoded local absolute paths**:
 
 ```python
-state_dict = torch.load("/Users/subash/Desktop/Scopic/Task_1/models/vae_model.pt", ...)
-state_dict = torch.load("/Users/subash/Desktop/Scopic/Task_1/models/maskgit_model.pt", ...)
-state_dict = torch.load("/Users/subash/Desktop/Scopic/Task_1/models/superres_maskgit_model.pt", ...)
+state_dict = torch.load("/Users/subash/Desktop/Muse_pytorch/models/vae_model.pt", ...)
+state_dict = torch.load("/Users/subash/Desktop/Muse_pytorch/models/maskgit_model.pt", ...)
+state_dict = torch.load("/Users/subash/Desktop/Muse_pytorch/models/superres_maskgit_model.pt", ...)
 ```
 
 You'll need to update these three paths to point at your own trained checkpoints:
